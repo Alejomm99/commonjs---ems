@@ -1,0 +1,16 @@
+{
+  "name": "commonjs-esm",
+  "module": "src/sindex.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "dev:esm": "bun run src/esm-main.ts",
+    "dev:cjs": "bun run src/cjs-main.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
