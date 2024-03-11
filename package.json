@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "bun run --watch src/index.ts",
     "dev:esm": "bun run src/esm-main.ts",
-    "dev:cjs": "bun run src/cjs-main.ts"
+    "dev:cjs": "bun run src/cjs-main.ts",
+    "dev:callbacks": "bun run --watch src/async/callbacks.ts",
+    "dev:promises": "bun run --watch src/async/promises.ts",
+    "dev:async-await": "bun run --watch src/async/async-await.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"

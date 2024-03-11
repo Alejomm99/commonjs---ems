@@ -10,6 +10,10 @@ export function greet(name: string) {
   return `Hola ${name}`;
 }
 
+export const generateRandomNumber = () => {
+  return Math.round(Math.random() * 10);
+};
+
 const currentDate = new Date();
 
 export default currentDate;
