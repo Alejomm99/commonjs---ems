@@ -8,12 +8,17 @@
     "dev:cjs": "bun run src/cjs-main.ts",
     "dev:callbacks": "bun run --watch src/async/callbacks.ts",
     "dev:promises": "bun run --watch src/async/promises.ts",
-    "dev:async-await": "bun run --watch src/async/async-await.ts"
+    "dev:async-await": "bun run --watch src/async/async-await.ts",
+    "dev:observable1": "bun run --watch src/async/observables1.ts",
+    "dev:observable2": "bun run --watch src/async/observables2.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1"
   }
 }
